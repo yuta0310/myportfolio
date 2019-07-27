@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img alt="Vue logo" src="../assets/logo.png"> --> --> -->
+    <img class="rei" alt="rei" src="../assets/rei.png">
     <HelloWorld hello="ようこそ"/>
   </div>
 </template>
@@ -16,3 +17,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.rei{
+  width:50%;
+}
+</style>
